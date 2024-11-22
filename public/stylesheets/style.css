@@ -1,0 +1,26 @@
+.bg-img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}/* Background images content */
+h1 {
+  color: white;
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}/* Header 1 welcome to basic math */
+h2 {
+  color: white;
+  text-align: center;
+}

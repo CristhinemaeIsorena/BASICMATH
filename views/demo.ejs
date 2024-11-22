@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <!-- Navigation center -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3a3f44;">
+    <div class="container">
+      <a class="navbar-brand" href="/basicMath" style="color: white;">Basic Math</a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/about" style="color: white;">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/demo" style="color: white;">Description</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/userinfo" style="color: white;">User Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/basicCalcu" style="color: white;">Basic Calculator</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
+
+  <!-- Header and Background -->
+  <h2>Description</h2>
+  <img class="bg-img" src="/images/background.jpg" alt="Bg images">
+
+  <!-- Just like with card groups -->
+  <div class="card-group">
+    <div class="card">
+      <img src="/images/express.png" class="card-img-top" alt="express">
+      <div class="card-body">
+        <h5 class="card-title">Expressjs</h5>
+        <p class="card-text">Express is a node js web application framework that provides broad features for building 
+          web and mobile applications. It is used to build a single page, multipage, and hybrid web application.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images/node.jpg" class="card-img-top" alt="node">
+      <div class="card-body">
+        <h5 class="card-title">Nodejs</h5>
+        <p class="card-text">Node. js is a runtime environment that allows JavaScript to be executed on the server side. 
+          It is built on the V8 JavaScript engine from Chrome, which compiles JavaScript into efficient machine code.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images/bootstrap.png" class="card-img-top" alt="bootstrap">
+      <div class="card-body">
+        <h5 class="card-title">Bootstrap</h5>
+        <p class="card-text"> Bootstrap is a free, open source front-end development framework for the creation of 
+          websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides 
+          a collection of syntax for template designs.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
